@@ -8,7 +8,7 @@ Just run the ruby script, something like this will suffice
 
 <pre>./update-textmate-bundles/bin/update-textmate-bundles</pre>
 
-You should see some out put like:
+You should see some output like:
 
 <pre>
 Updating git based TextMate Bundles for: gegster
