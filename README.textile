@@ -1,13 +1,12 @@
 h3. Installation:
-<pre>
-git clone git@github.com:gfairbrother/update-textmate-bundles.git
-</pre>
+
+<pre>git clone git@github.com:gfairbrother/update-textmate-bundles.git</pre>
 	
 h3. Usage:
+
 Just run the ruby script, something like this will suffice
-<pre>
-./update-textmate-bundles/bin/update-textmate-bundles
-</pre>
+
+<pre>./update-textmate-bundles/bin/update-textmate-bundles</pre>
 
 You should see some out put like:
 
