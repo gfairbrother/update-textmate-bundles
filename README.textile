@@ -1,0 +1,49 @@
+h3. Installation:
+<pre>
+git clone git@github.com:gfairbrother/update-textmate-bundles.git
+</pre>
+	
+h3. Usage:
+Just run the ruby script, something like this will suffice
+<pre>
+./update-textmate-bundles/bin/update-textmate-bundles
+</pre>
+
+You should see some out put like:
+
+<pre>
+Updating git based TextMate Bundles for: gegster
+
+Changed directory to /Users/gegster/Library/Application Support/TextMate/Bundles
+Ack.tmbundle is a git repo, updating...
+Already up-to-date.
+Cucumber.tmbundle is a git repo, updating...
+Already up-to-date.
+RSpec.tmbundle is a git repo, updating...
+From git://github.com/dchelimsky/rspec-tmbundle
+   1fd90ea..7a96fb6  master     -> origin/master
+Updating 1fd90ea..7a96fb6
+Fast forward
+ Commands/Run Last Examples file.tmCommand          |   32 ++++++++++++++++++++
+ Commands/Save spec and remember.tmCommand          |   29 ++++++++++++++++++
+ README                                             |   11 -------
+ README.rdoc                                        |   11 +++++++
+ ...atcher.tmSnippet => Matcher (Custom).tmSnippet} |   10 +++---
+ Snippets/Matcher (DSL).tmSnippet                   |   21 +++++++++++++
+ Support/lib/spec/mate.rb                           |    2 +-
+ Support/lib/spec/mate/runner.rb                    |   24 +++++++++++++-
+ Support/lib/spec/mate/switch_command.rb            |    2 +-
+ Support/spec/spec/mate/runner_spec.rb              |   13 ++++++++
+ Syntaxes/RSpec.tmLanguage                          |   21 ++++++++++++-
+ info.plist                                         |    3 ++
+ 12 files changed, 157 insertions(+), 22 deletions(-)
+ create mode 100644 Commands/Run Last Examples file.tmCommand
+ create mode 100644 Commands/Save spec and remember.tmCommand
+ delete mode 100644 README
+ create mode 100644 README.rdoc
+ rename Snippets/{Custom Matcher.tmSnippet => Matcher (Custom).tmSnippet} (76%)
+ create mode 100644 Snippets/Matcher (DSL).tmSnippet
+
+Done!
+All bundles updated.
+</pre>
