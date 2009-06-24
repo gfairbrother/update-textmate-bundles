@@ -1,13 +1,17 @@
-Installation:
+h3. Installation:
+<pre>
 git clone git@github.com:gfairbrother/update-textmate-bundles.git
-
-Usage:
+</pre>
+	
+h3. Usage:
 Just run the ruby script, something like this will suffice
-
+<pre>
 ./update-textmate-bundles/bin/update-textmate-bundles
+</pre>
 
 You should see some out put like:
 
+<pre>
 Updating git based TextMate Bundles for: gegster
 
 Changed directory to /Users/gegster/Library/Application Support/TextMate/Bundles
@@ -42,4 +46,4 @@ Fast forward
 
 Done!
 All bundles updated.
-
+</pre>
