@@ -11,7 +11,7 @@ Just run the ruby script, something like this will suffice
 You should see some output like:
 
 <pre>
-Updating git based TextMate Bundles for: gegster
+Updating TextMate Bundles for: gegster
 
 Changed directory to /Users/gegster/Library/Application Support/TextMate/Bundles
 Ack.tmbundle is a git repo, updating...
@@ -42,6 +42,8 @@ Fast forward
  create mode 100644 README.rdoc
  rename Snippets/{Custom Matcher.tmSnippet => Matcher (Custom).tmSnippet} (76%)
  create mode 100644 Snippets/Matcher (DSL).tmSnippet
+
+reloading bundles
 
 Done!
 All bundles updated.
