@@ -25,7 +25,9 @@ Dir.chdir() do
           end
         elsif test(?d, "#{dir}/.svn")
           puts "#{dir} is a svn repo, updating..."
-          system("svn up")
+          Dir.chdir(dir) do
+            system("svn up")
+          end
           puts "you should check to see if there is a git based version of this repo at:\nhttp://github.com/textmate"
         else
           puts "################################################################################"
